@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # This script is displaying "Best School" 10 times
 
 for (( i=0; i<10; i++ ))
+=======
+# displays Best School 10 times
+
+for _ in $(seq 1 10);
+>>>>>>> a467aa70b95398fa675acbf15e29b1678b51e8fc
 do
 	echo "Best School"
 done
